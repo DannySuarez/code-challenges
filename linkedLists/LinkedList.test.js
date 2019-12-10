@@ -33,5 +33,12 @@ describe('Linked List Class', () => {
       }
     });
   });
+
+  it('returns true if a value is foudn in a node', () => {
+    expect(linkedList.includes(2)).toBeTruthy;
+  });
   
+  it('returns false if not found', () => {
+    expect(linkedList.includes(3)).toBeFalsy();
+  });
 });
