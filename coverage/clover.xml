@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1576004541821" clover="3.2.0">
-  <project timestamp="1576004541821" name="All files">
-    <metrics statements="18" coveredstatements="18" conditionals="5" coveredconditionals="4" methods="5" coveredmethods="5" elements="28" coveredelements="27" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
+<coverage generated="1576006162884" clover="3.2.0">
+  <project timestamp="1576006162884" name="All files">
+    <metrics statements="18" coveredstatements="18" conditionals="5" coveredconditionals="5" methods="5" coveredmethods="5" elements="28" coveredelements="28" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
     <file name="LinkedList.js" path="/Users/Danny/projects/code-challenges/linkedLists/LinkedList.js">
-      <metrics statements="18" coveredstatements="18" conditionals="5" coveredconditionals="4" methods="5" coveredmethods="5"/>
-      <line num="3" count="3" type="stmt"/>
-      <line num="4" count="3" type="stmt"/>
+      <metrics statements="18" coveredstatements="18" conditionals="5" coveredconditionals="5" methods="5" coveredmethods="5"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
       <line num="10" count="2" type="stmt"/>
       <line num="14" count="3" type="stmt"/>
       <line num="15" count="3" type="stmt"/>
@@ -14,7 +14,7 @@
       <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
       <line num="22" count="3" type="stmt"/>
       <line num="24" count="1" type="stmt"/>
-      <line num="28" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="30" count="1" type="stmt"/>
       <line num="31" count="1" type="stmt"/>
       <line num="32" count="1" type="stmt"/>

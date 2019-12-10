@@ -1,4 +1,4 @@
-const { LinkedList } = require('./LinkedList');
+const { LinkedList, Node } = require('./LinkedList');
 
 describe('Linked List Class', () => {
   const linkedList = new LinkedList();
@@ -51,5 +51,13 @@ describe('Linked List Class', () => {
   it('returns an empty string if no head is found', () => {
     const emptyLinkedList = new LinkedList();
     expect(emptyLinkedList.toString()).toEqual('');
+  });
+
+  it('succesfully creates a node', () => {
+    const node = new Node(1);
+    expect(node).toEqual({
+      value:1,
+      next: null
+    });
   });
 });
