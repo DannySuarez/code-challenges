@@ -1,6 +1,6 @@
 class Node {
   constructor(val, next = null)  {
-    this.value;
+    this.value = val;
     this.next = next;
   }
 }
@@ -37,4 +37,4 @@ class LinkedList {
   }
 }
 
-module.exports = LinkedList;
+module.exports = { LinkedList };
