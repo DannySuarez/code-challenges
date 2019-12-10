@@ -47,4 +47,9 @@ describe('Linked List Class', () => {
       '2 -> 1 -> 0'
     );
   });
+
+  it('returns an empty string if no head is found', () => {
+    const emptyLinkedList = new LinkedList();
+    expect(emptyLinkedList.toString()).toEqual('');
+  });
 });
