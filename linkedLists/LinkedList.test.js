@@ -41,4 +41,10 @@ describe('Linked List Class', () => {
   it('returns false if not found', () => {
     expect(linkedList.includes(3)).toBeFalsy();
   });
+
+  it('returns a linked list', () => {
+    expect(linkedList.toString()).toEqual(
+      '2 -> 1 -> 0'
+    );
+  });
 });
